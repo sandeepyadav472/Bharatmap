@@ -299,35 +299,22 @@
 </style>
 
 <!-- Toolbar -->
-<!-- <div class="toolbar" role="banner">
- 
+<div class="toolbar" role="banner">
+    <!-- <select (change)="GetDistrictCodes($event)">
+      <option *ngFor="let fs of GetStateCodes()" [value]="fs.State_LGD">{{fs.STNAME}}</option>
+    </select> -->
+    <!-- breadCrumb[0]/District/Block -->
+    breadCrumb[0]
   
     <div class="spacer"></div>
    
-</div> -->
+</div>
 
-<div class="content"  id="map" #map>
+<div class="content"  id="map" #map   style="height:500px">
+</div>
 
-  <!-- Highlight Card -->
-  <!-- <div class="card highlight-card card-small">BHARAT MAP </div> -->
 
-  <!-- <div class="card-container" id="map" #map>
-  
-
- 
-   
-
-    
-
-    
-
-  </div> -->
-
-  
-  
-
-  
-
+<div class="content"  id="mapSelect" #mapSelect>
 </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->

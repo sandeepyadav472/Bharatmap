@@ -7,7 +7,7 @@ export class AppConfig {
     private static DistrictUrl = 'https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/District_Boundary/MapServer/0?Token=pcif67ocy9RQD6jpoxvFy-B9JJEb1uzdsdI6LmlM_pAOogrI_qH0sIQQBMSfukVc';
 
 
-    private static BlockUrl='https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/Block_Boundary/MapServer/0?Token=j22DoRub4pLkbKe6CdYtK9WaIKiuWEkmozi5FnjrxHpFwp7c-hipttQfFP6Oaves';
+    private static BlockUrl='https://mapservice.gov.in/gismapservice/rest/services/BharatMapService/Block_Boundary/MapServer/0?Token=86R8qoxcozGlfUkeEBAKdcgqKxXVjs8suw8AX7JzeWcB_EbHHgjA5XpFZ97KrGtF';
 
 
     private static uiUrlPath: string = environment.uiUrl;
